@@ -17,137 +17,329 @@
 <body>
     <div class="container-fluid p-0">
         <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#"><img src="asset/brand-white.png" alt="" srcset=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span><img src="asset/photoprof.jpg" alt="" srcset="" class="w-25"></span>
-                    </button>
+            <header>
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#"><img src="asset/brand-white.png" alt="" srcset=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span><img src="asset/photoprof.jpg" alt="" srcset="" class="w-25 profilPicture"></span>
+                        </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Profil</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    Message
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Docs</a>
-                            </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-light my-2 my-sm-0" type="submit"><i
-                                    class="far fa-bell"></i></button>
-                        </form>
-                        <img src="asset/photoprof.jpg" alt="" srcset="" class="w-25 d-sm-none d-lg-block">
-                    </div>
-                </nav>
-            </div>
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-3">
-                        gauche
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="card">
-                                    <img src="https://picsum.photos/800/700" class="card-img-top" alt="...">
-                                    <div class="card-img-overlay">
-                                        <img src="asset/photoprof.jpg" alt="" srcset="" class="w-25">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Profil</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Message
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Docs</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-light my-2 my-sm-0" type="submit"><i
+                                        class="far fa-bell"></i></button>
+                            </form>
+                            <img src="asset/photoprof.jpg" alt="" srcset=""
+                                class="w-25 profilPicture d-sm-none d-lg-block">
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-3 eachcol">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <img src="https://picsum.photos/800/700" class="card-img-top" alt="...">
+                                        <div class="card-img-overlay">
+                                            <img src="asset/photoprof.jpg" alt="" srcset=""
+                                                class="w-25 profilPicture d-sm-none d-lg-block">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dave Velue</h5>
+                                            <p class="card-text">Some quick example text to build on the card.</p>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    Friends <br> 12M
+                                                </div>
+                                                <div class="col-2">
+                                                    | <br> |
+                                                </div>
+                                                <div class="col-5">
+                                                    Enemies <br> 1
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Dave Velue</h5>
-                                        <p class="card-text">Some quick example text to build on the card.</p>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">About · <a href="#">Edit</a></h5>
+                                            <ul>
+                                                <li>
+                                                    <i class="far fa-calendar"></i>
+                                                    Went to <a href="#">Oh, Canada</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-user-friends"></i>
+                                                    Became friends with <a href="#">Obama</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fab fa-github-alt"></i>
+                                                    Worked at <a href="#">Github</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-home"></i>
+                                                    Lives in <a href="#">San Francisco, CA</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    From <a href="#">Seattle, WA</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Photos · <a href="#">Edit</a></h5>
+                                            <figure>
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6">
+                                                        <img src="https://picsum.photos/800/700" class="mw-100" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-md-6">
+                                                        <img src="https://picsum.photos/800/700" class="mw-100" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-md-6 d-none d-md-block">
+                                                        <img src="https://picsum.photos/800/700" class="mw-100" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-md-6 d-none d-md-block">
+                                                        <img src="https://picsum.photos/800/700" class="mw-100" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-md-6 d-none d-md-block">
+                                                        <img src="https://picsum.photos/800/700" class="mw-100" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-md-6 d-none d-md-block">
+                                                        <img src="https://picsum.photos/800/700" class="mw-100" alt="">
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row newaside">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-6 eachcol">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Message"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i
+                                                    class="fas fa-camera"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="asset/photoprof.jpg" alt="" srcset="" class="w-100 profilPicture">
+                                        </div>
+                                        <div class="col-10">
+                                            <h6>Dave Velue</h6>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod aut error
+                                                voluptates hic consectetur, tenetur voluptatem nisi quas ab! Eveniet est
+                                                nisi fuga saepe quaerat sequi unde eos reiciendis nemo!</p>
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    <img src="https://picsum.photos/800/700" class="mw-100" alt="">
+                                                </div>
+                                                <div class="col-4">
+                                                    <img src="https://picsum.photos/500/1000" class="mw-100" alt="">
+                                                </div>
+                                                <div class="col-4">
+                                                    <img src="https://picsum.photos/500/1000" class="mw-100" alt="">
+                                                </div>
+                                                <div class="col-8">
+                                                    <img src="https://picsum.photos/800/700" class="mw-100" alt="">
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="asset/image.png" alt="" class="w-100 profilPicture">
+                                                </div>
+                                                <div class="col-10">
+                                                    <p><span>Jacob H</span> Lorem, ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Quod aut
+                                                        error
+                                                        voluptates hic consectetur, tenetur voluptatem nisi quas ab!
+                                                        Eveniet
+                                                        est
+                                                        nisi fuga saepe quaerat sequi unde eos reiciendis nemo!</p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="asset/Me.png" alt="" class="w-100 profilPicture">
+                                                </div>
+                                                <div class="col-10">
+                                                    <p><span>David B</span> Lorem, ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Quod aut
+                                                        error
+                                                        voluptates hic consectetur, tenetur voluptatem nisi quas ab!
+                                                        Eveniet
+                                                        est
+                                                        nisi fuga saepe quaerat sequi unde eos reiciendis nemo!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="col-2">
+                                        <img src="asset/image.png" alt="" class="w-100 profilPicture">
+                                    </div>
+                                    <div class="col-10">
+                                        <p><span>Jacob H</span> Lorem, ipsum dolor sit amet consectetur adipisicing
+                                            elit.
+                                            Quod aut
+                                            error
+                                            voluptates hic consectetur, tenetur voluptatem nisi quas ab! Eveniet
+                                            est
+                                            nisi fuga saepe quaerat sequi unde eos reiciendis nemo!</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="col-2">
+                                        <img src="asset/Me.png" alt="" class="w-100 profilPicture">
+                                    </div>
+                                    <div class="col-10">
+                                        <p><span>David B</span> Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing elit. Quod aut
+                                            error
+                                            voluptates hic consectetur, tenetur voluptatem nisi quas ab! Eveniet
+                                            est
+                                            nisi fuga saepe quaerat sequi unde eos reiciendis nemo!</p>
+                                        <img src="https://picsum.photos/800/700" class="mw-100" alt="">
                                         <div class="row">
-                                            <div class="col-5">
-                                                Friends <br> 12M
-                                            </div>
                                             <div class="col-2">
-                                                | <br> |
+                                                <img src="asset/photoprof.jpg" alt="" srcset=""
+                                                    class="w-100 profilPicture">
                                             </div>
-                                            <div class="col-5">
-                                                Enemies <br> 1
+                                            <div class="col-10">
+                                                <h6>Dave Velue</h6>
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod aut
+                                                    error
+                                                    voluptates hic consectetur, tenetur voluptatem nisi quas ab! Eveniet
+                                                    est
+                                                    nisi fuga saepe quaerat sequi unde eos reiciendis nemo!</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">About · <a href="#">Edit</a></h5>
-                                        <ul>
-                                            <li>
-                                                <i class="far fa-calendar"></i>
-                                                Went to <a href="#">Oh, Canada</a>
-                                            </li>
-                                            <li>
-                                                    <i class="fas fa-user-friends"></i>
-                                                    Became friends with <a href="#">Obama</a>
-                                            </li>
-                                            <li>
-                                                    <i class="fab fa-github-alt"></i>
-                                                    Worked at <a href="#">Github</a>
-                                            </li>
-                                            <li>
-                                                    <i class="fas fa-home"></i>
-                                                    Lives in <a href="#">San Francisco, CA</a>
-                                            </li>
-                                            <li>
-                                                    <i class="fas fa-map-marker-alt"></i>
-                                                    From <a href="#">Seattle, WA</a>
-                                            </li>
-                                        </ul>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 eachcol">
+                            <div class="row">
+                                <div class="col-12 moveaside">
+                                    <div class="card">
+                                        <h5 class="card-title">Sponsored</h5>
+                                        <img class="card-img-top p-3" src="https://picsum.photos/800/700"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h6>Lorem</h6>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make
+                                                up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Buy Ticket</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-12">
-                                photo
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        milieu
-                        <div class="row">
-                            <div class="col-12">
-                                inputMessage
-                            </div>
-                            <div class="col-12">
-                                dave
-                            </div>
-                            <div class="col-12">
-                                jacob
-                            </div>
-                            <div class="col-12">
-                                mark
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        droite
-                        <div class="row">
-                            <div class="col-12">
-                                spponso
-                            </div>
-                            <div class="col-12">
-                                likes
-                            </div>
-                            <div class="col-12">
-                                copyright
+                                <div class="col-12">
+                                    <div class="card mb-3">
+                                        <div class="card-body text-dark">
+                                            <h5 class="card-title">Likes · <a href="#">View All</a></h5>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <img src="asset/image.png" alt="" class="w-100 profilPicture">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p>Jacob H <span>@Fat</span></p>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <a class="btn btn-outline-primary" role="button"><i
+                                                                    class="fas fa-user-plus"></i>Follow</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <img src="asset/Me.png" alt="" class="w-100 profilPicture">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p>David B <span>@MDO</span></p>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <a class="btn btn-outline-primary" role="button"><i
+                                                                    class="fas fa-user-plus"></i>Follow</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="card-footer bg-transparent">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.</div>
+                                    </div>
+
+                                </div>
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title"> © Bootstrap 2015</h5>
+                                            <a href="#" class="card-link">About</a>
+                                            <a href="#" class="card-link">Help</a>
+                                            <a href="#" class="card-link">Terms</a>
+                                            <a href="#" class="card-link">Privacy</a>
+                                            <a href="#" class="card-link">Cookies</a>
+                                            <a href="#" class="card-link">Ads</a>
+                                            <a href="#" class="card-link">Info</a>
+                                            <a href="#" class="card-link">Brand</a>
+                                            <a href="#" class="card-link">Blog</a>
+                                            <a href="#" class="card-link">Status</a>
+                                            <a href="#" class="card-link">Apps</a>
+                                            <a href="#" class="card-link">Jobs</a>
+                                            <a href="#" class="card-link">Advertise</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
         </div>
     </div>
     <!-- Optional JavaScript -->
